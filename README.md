@@ -1,5 +1,3 @@
-Thanks for the clarification! Here’s the updated README with the correct filename:
-
 ---
 
 # CUDA + SDL2 Template
