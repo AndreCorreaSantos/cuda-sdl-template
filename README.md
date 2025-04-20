@@ -1,4 +1,3 @@
----
 
 # CUDA + SDL2 Template
 
