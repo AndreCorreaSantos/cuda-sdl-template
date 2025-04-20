@@ -42,9 +42,6 @@ bool initSDL2(SDL2Context& context, int width, int height) {
         SDL_TEXTUREACCESS_STREAMING,
         width, height
     );
-    Uint32 format;
-    SDL_QueryTexture(context.texture, &format, nullptr, nullptr, nullptr);
-    std::cout << "SDL texture format: " << SDL_GetPixelFormatName(format) << std::endl;
 
     if (!context.texture) {
         std::cerr << "SDL_CreateTexture failed: " << SDL_GetError() << "\n";
